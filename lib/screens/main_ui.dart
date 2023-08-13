@@ -11,6 +11,7 @@ import 'home_screen.dart';
 
 class MainUi extends StatefulWidget {
   const MainUi({Key? key}) : super(key: key);
+  static String id = 'mainUI';
 
   @override
   State<MainUi> createState() => _MainUiState();
